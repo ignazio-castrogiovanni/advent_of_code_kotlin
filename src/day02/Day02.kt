@@ -1,3 +1,7 @@
+package day02
+
+import readInput
+
 var x = 0
 var y = 0
 var aim = 0
@@ -47,7 +51,7 @@ fun main() {
     }
 
 
-    val input = readInput("Day02_test")
+    val input = readInput("Day02_test", "day02")
     println(part1(input))
 
     x = 0
